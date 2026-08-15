@@ -1,4 +1,3 @@
-# Termo-jogo
 
 # 🎮 Termo Java
 
