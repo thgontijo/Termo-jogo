@@ -1,5 +1,4 @@
 # Termo-jogo
-Sim. Nesse estilo, eu deixaria o README do Termo assim:
 
 # 🎮 Termo Java
 
