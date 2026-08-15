@@ -10,7 +10,6 @@
 * 🔤 Validação da palavra utilizando **Regex**
 * 📖 Verificação se a palavra digitada é válida
 * 📋 Lista de palavras que podem ser utilizadas nas tentativas
-* 🎯 Lista de palavras que podem ser escolhidas como palavra secreta
 * 💰 Sistema de score
 * 🔄 Opção de jogar novamente
 
@@ -34,6 +33,9 @@ Durante o jogo, o jogador informa suas tentativas. A entrada é validada utiliza
 * Java
 * Regex
 * Programação Orientada a Objetos (OOP)
+* Maven
+* Log4j2
+* Lombok
 
 ---
 
