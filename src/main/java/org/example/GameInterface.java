@@ -106,9 +106,9 @@ public class GameInterface {
         log.info("the word was: {}", chosenWord);
         log.info("your score is: {}", newScore);
         user.setScore(newScore);
-        log.info("Do you want to start over? (Y/N)");
-        String respUser = scanner.nextLine();
-        if (respUser == null || !respUser.equalsIgnoreCase("s")) {
+        log.info("Do you want to start over? (S/N)");
+        String respUser = scanner.nextLine().trim();
+        if (!"s".equalsIgnoreCase(respUser)) {
             log.error("wrapping up...");
             return false;
         }

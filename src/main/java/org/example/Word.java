@@ -34,7 +34,7 @@ public class Word {
         int chosenLine;
         do {
             chosenLine = RANDOM_NUMBER.nextInt(possibleWords.size());
-        }while (!chosenWords.contains(chosenLine));
+        } while (chosenWords.contains(chosenLine));
         chosenWords.add(chosenLine);
         return possibleWords.get(chosenLine);
     }
